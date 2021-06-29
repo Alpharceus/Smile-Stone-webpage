@@ -223,7 +223,7 @@ section .title::after{
 
 }
 .about .about-content {
-    width: 55%;
+    width: 100%;
 }
 .about .about-content .text{
     font-size: 25px;
@@ -246,7 +246,73 @@ section .title::after{
     background: #fff;
 }
 
+/* about section styling */
+.research .title::after{
+    content: "What did we do";
 
+}
+.research .re-content .maintext{
+	width: 100%;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.research .re-content.ro {
+  display: flex;
+}
+
+.research .re-content.co {
+  flex: 25%;
+  padding: 5px;
+}
+.research .re-content .pics{
+	width: 100%;
+}	
+.research .re-content .pics img{
+	height: 600px;
+    width: 1200px;
+    object-fit: cover;
+    border-radius: 6px;
+}	
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.centre{
+  margin-left: auto;
+  margin-right: auto;
+}	
+table {
+  border-collapse: collapse;
+}
+table {
+  width: 50%;
+}
+
+th {
+  height: 70px;
+}
+td {
+  text-align: center;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+.research .re-content .text{
+	width: 100%;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.research .re-content  a:hover{
+    color: crimson;
+    background: none;
+}
 
 /* teams section styling */
 .teams{
